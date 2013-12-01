@@ -1,0 +1,174 @@
+/* pocketknife.css */
+
+/* imports */
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    /*background-color: #C2DFE4;*/
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    /*background-color: blue;*/
+}
+
+img {
+    margin: 0 6px 6px 0;
+}
+
+hr.symbol {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+
+hr.symbol:after {
+    content: "◎";
+    display: inline-block;
+    position: relative;
+    top: -0.8em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+.bordered {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.padded {
+    padding: 12px;
+}
+
+.col {
+    position: relative;
+    float: left;
+    margin: 12px;
+}
+
+.clear {
+    clear: both;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.panel {
+    width: 960px;
+}
+/* the container */
+
+.container {
+    /* width: 960px; */
+}
+
+#right {
+    width: 640px;
+    margin-top: 32px;
+    margin-left: 336px;
+    position: absolute;
+    top: 0px;
+    bottom: 10px;
+}
+
+#right-body {
+    overflow: scroll;
+    height: 95%;
+}
+
+/* the hero */
+#above-fold {
+    background-color: #C2DFE4;
+    padding-bottom: 160px;
+}
+
+#hero {
+    width: 280px;
+}
+
+#hero-inner {
+    padding-bottom: 0;
+}
+
+#hero-body {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 0px;
+}
+
+/*
+ * Mustard: DCCB74
+ * Rust:    DC7474
+*/
+
+#hero-footer {
+    background: #DC7474;
+    /* color: white; */
+    padding: 2px;
+
+    border-width: 1px;
+    border-color: black;
+    border-top-style: solid;
+}
+
+#hero-footer p {
+    margin: 4px 0 4px 0;
+    text-align: center;
+}
+
+#hero-title {
+    margin-left: 38px;
+    margin-top: 68px;
+}
+
+/* greeter */
+
+#greeter {
+    /*background-color: #DCCB74;*/
+    text-align: justify;
+}
+
+/* portfolio */
+
+#portfolio {
+}
+
+#portfolio-pic {
+    float: left;
+}
+
+/* the team */
+
+.person {
+    width: 600px;
+    text-align: justify;
+}
+
+#profile-pic {
+    float: left;
+}
+
+/* footer */
+
+#footer {
+    bottom: 0;
+    position: absolute;
+}
+
+#landscape {
+    z-index: 2;
+    right: 0px;
+}
+
