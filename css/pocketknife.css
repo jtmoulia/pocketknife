@@ -3,6 +3,7 @@
 /* imports */
 @import url(http://fonts.googleapis.com/css?family=Raleway:300);
 
+
 * {
     font-family: 'Raleway', sans-serif;
 }
@@ -16,7 +17,13 @@ h1 {
 }
 
 h2 {
+    font-size: 2.5em;
+    text-align: center;
     /*background-color: blue;*/
+}
+
+p {
+    font-size: 1.1em;
 }
 
 img {
@@ -86,6 +93,8 @@ hr.symbol:after {
 #right-body {
     overflow: scroll;
     height: 95%;
+    padding-left: 100px;
+    width: 100%;
 }
 
 /* the hero */
@@ -168,7 +177,9 @@ hr.symbol:after {
 }
 
 #landscape {
-    z-index: 2;
-    right: 0px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
 }
 
