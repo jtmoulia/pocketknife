@@ -25,6 +25,8 @@ p {
     font-size: 1.1em;
 }
 
+
+
 img {
     margin: 0 6px 6px 0;
 }
@@ -115,11 +117,11 @@ hr.symbol:after {
 
 /*
  * Mustard: DCCB74
- * Rust:    DC7474
+ * Rust:    F35757
 */
 
 #hero-footer {
-    background: #DC7474;
+    background: #F35757;;
     /* color: white; */
     padding: 2px;
 
@@ -163,6 +165,10 @@ hr.symbol:after {
 
 #profile-pic {
     float: left;
+}
+
+#profile-pic-right {
+    float: right;
 }
 
 /* footer */

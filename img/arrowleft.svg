@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="604px" height="97px" viewBox="0 0 604 97" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>arrowleft</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs>
+        <path d="M518.807402,6.48550851 C518.807402,6.48550851 550.458037,6.48550784 577.209196,6.48550847 C603.960356,6.48550887 606.763457,36.0142367 583.522124,36.0142367 C513.482414,36.0142383 86.7990027,34.9582631 41.5829344,36.014237 C-3.63313364,37.0702111 2.11021192,42.4164179 2.11020156,49.5925041 C2.11019989,51.7132633 1.60377468,58.0000003 41.5829344,58 C62.8732037,58 118.10364,58.0000002 118.10364,58.0000002 L118.103636,94.9258232" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Line">
+            <use stroke="#636363" stroke-width="1" stroke-linecap="square" stroke-dasharray="8" fill-rule="evenodd" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+            <use stroke="none" xlink:href="#path-1"></use>
+            <use stroke="none" xlink:href="#path-1"></use>
+        </g>
+        <path id="Line-decoration-1" d="M118.103636,94.6709404 C119.153637,90.8909405 120.053637,87.6509405 121.103637,83.8709406 C119.003637,83.8709405 117.203637,83.8709404 115.103637,83.8709403 C116.153637,87.6509404 117.053637,90.8909404 118.103636,94.6709404 C118.103636,94.6709404 118.103636,94.6709404 118.103636,94.6709404 Z" stroke="#636363" stroke-linecap="square" stroke-dasharray="8"></path>
+    </g>
+</svg>
