@@ -1,12 +1,16 @@
 #!/bin/bash -ae
 
-ABS="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+ROOT="$(dirname "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)")"
 
-: ${S3CMDCONFIG:="$ABS/../.s3cfg"}
+: ${S3CMDCONFIG:="$ROOT/.s3cfg"}
 : ${S3BUCKET:="s3://pocketknife-web"}
-: ${S3DIR:="/"}
+: ${S3DIR:=""}
 
-S3TARGET="${S3BUCKET/S3DIR}"
+S3TARGET="${S3BUCKET}/${S3DIR}"
 
-s3cmd put "$ABS/../web/*" "$S3TARGET"
-s3cmd setacl --recursive --acl-public "$S3TARGET"
+S3Cmd() {
+    s3cmd -c "$S3CMDCONFIG" "$@"
+}
+
+S3Cmd sync --recursive ${ROOT}/web/* "$S3TARGET"
+S3Cmd setacl --recursive --acl-public "$S3TARGET"
