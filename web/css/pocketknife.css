@@ -49,6 +49,15 @@ hr.symbol:after {
     background: white;
 }
 
+table {
+    border-collapse: collapse;
+    border: 1px dashed;
+}
+
+td {
+    padding: 20px;
+}
+
 .bordered {
     border-style: solid;
     border-width: 1px;
@@ -62,6 +71,7 @@ hr.symbol:after {
     position: relative;
     float: left;
     margin: 12px;
+
 }
 
 .clear {
@@ -163,6 +173,7 @@ hr.symbol:after {
     text-align: justify;
 }
 
+
 #profile-pic {
     float: left;
 }
@@ -184,4 +195,5 @@ hr.symbol:after {
     position: absolute;
     bottom: 0px;
 }
+
 
